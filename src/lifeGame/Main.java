@@ -42,15 +42,15 @@ public class Main extends JFrame {
 		p.setLayout(new BorderLayout(0, 0));
 		p1.setLayout(new GridLayout(row, col, 0, 0));
 
-		//JLabel label = new JLabel("Ï¸°û×éĞĞÊı");
+		//JLabel label = new JLabel("ç»†èƒç»„è¡Œæ•°");gitä¿®æ”¹æ ‡è®°1
 		//JTextField textField = new JTextField(2);
 
-		//JLabel label1 = new JLabel("Ï¸°û×éÁĞÊı");
+		//JLabel label1 = new JLabel("ç»†èƒç»„åˆ—æ•°");
 		//JTextField textField1 = new JTextField(2);
 
-		//JButton b = new JButton("È·¶¨");
+		//JButton b = new JButton("ç¡®å®š");
 
-		final JLabel label2 = new JLabel("·±ÑÜ´úÊı£º0");
+		final JLabel label2 = new JLabel("ç¹è¡ä»£æ•°ï¼š0");
 		//p2.add(label);
 		//p2.add(textField);
 		//p2.add(label1);
@@ -75,7 +75,7 @@ public class Main extends JFrame {
 
 		cells = GameService.initMap(row, col);
 		generation = 1;
-		label2.setText("·±ÑÜ´úÊı£º" + generation);
+		label2.setText("ç¹è¡ä»£æ•°ï¼š" + generation);
 		for (int i = 0; i < row; i++)
 			for (int j = 0; j < col; j++) {
 				btns[i][j] = new JButton();
@@ -97,7 +97,7 @@ public class Main extends JFrame {
 			public void run() {
 				cells = GameService.generate(cells);
 				++generation;
-				label2.setText("·±ÑÜ´úÊı£º" + generation);
+				label2.setText("ç¹è¡ä»£æ•°ï¼š" + generation);
 				for (int i = 0; i < row; i++) {
 					for (int j = 0; j < col; j++) {
 						if (cells.getCell(i, j) == CellState.LIVE.getValue()) {
@@ -131,7 +131,7 @@ public class Main extends JFrame {
 	}*/
 
 	public static void main(String args[]) {
-		Main main = new Main("ÉúÃüÓÎÏ·");
+		Main main = new Main("ç”Ÿå‘½æ¸¸æˆ");
 		main.initGUI();
 	}
 
