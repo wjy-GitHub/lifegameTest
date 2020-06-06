@@ -1,0 +1,158 @@
+src/data/CellArray.java:10:	The class 'CellArray' is suspected to be a Data Class (WOC=28.571%, NOPA=0, NOAM=4, WMC=11)
+src/data/CellArray.java:11:	Avoid unused private fields such as 'cellArray'.
+src/data/CellArray.java:11:	Field comments are required
+src/data/CellArray.java:11:	It is somewhat confusing to have a field name matching the declaring class name
+src/data/CellArray.java:12:	Field comments are required
+src/data/CellArray.java:13:	Field comments are required
+src/data/CellArray.java:15:	Parameter 'col' is not assigned and could be declared final
+src/data/CellArray.java:15:	Parameter 'row' is not assigned and could be declared final
+src/data/CellArray.java:15:	Public method and constructor comments are required
+src/data/CellArray.java:28:	Parameter 'row' is not assigned and could be declared final
+src/data/CellArray.java:40:	Parameter 'col' is not assigned and could be declared final
+src/data/CellArray.java:46:	Avoid variables with short names like x
+src/data/CellArray.java:46:	Avoid variables with short names like y
+src/data/CellArray.java:46:	Parameter 'x' is not assigned and could be declared final
+src/data/CellArray.java:46:	Parameter 'y' is not assigned and could be declared final
+src/data/CellArray.java:46:	Public method and constructor comments are required
+src/data/CellArray.java:48:	Avoid using if statements without curly braces
+src/data/CellArray.java:49:	A method should have only one exit point, and that should be the last statement in the method
+src/data/CellArray.java:49:	This statement should have braces
+src/data/CellArray.java:53:	Avoid variables with short names like x
+src/data/CellArray.java:53:	Avoid variables with short names like y
+src/data/CellArray.java:53:	Parameter 'cell' is not assigned and could be declared final
+src/data/CellArray.java:53:	Parameter 'x' is not assigned and could be declared final
+src/data/CellArray.java:53:	Parameter 'y' is not assigned and could be declared final
+src/data/CellArray.java:53:	Public method and constructor comments are required
+src/data/CellState.java:9:	Field comments are required
+src/data/CellState.java:11:	Parameter 'value' is not assigned and could be declared final
+src/lifeGame/Main.java:1:	Package name contains upper case characters
+src/lifeGame/Main.java:7:	Avoid unused imports such as 'java.awt.event'
+src/lifeGame/Main.java:9:	Avoid unused imports such as 'javax.swing.border.EmptyBorder'
+src/lifeGame/Main.java:15:	Avoid short class names like Main
+src/lifeGame/Main.java:15:	Header comments are required
+src/lifeGame/Main.java:16:	Field comments are required
+src/lifeGame/Main.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/lifeGame/Main.java:17:	Avoid variables with short names like p
+src/lifeGame/Main.java:17:	Field comments are required
+src/lifeGame/Main.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/lifeGame/Main.java:17:	Perhaps 'p' could be replaced by a local variable.
+src/lifeGame/Main.java:18:	Avoid variables with short names like p1
+src/lifeGame/Main.java:18:	Field comments are required
+src/lifeGame/Main.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/lifeGame/Main.java:18:	Perhaps 'p1' could be replaced by a local variable.
+src/lifeGame/Main.java:19:	Avoid variables with short names like p2
+src/lifeGame/Main.java:19:	Field comments are required
+src/lifeGame/Main.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/lifeGame/Main.java:19:	Perhaps 'p2' could be replaced by a local variable.
+src/lifeGame/Main.java:20:	Avoid variables with short names like p3
+src/lifeGame/Main.java:20:	Field comments are required
+src/lifeGame/Main.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/lifeGame/Main.java:20:	Perhaps 'p3' could be replaced by a local variable.
+src/lifeGame/Main.java:21:	Avoid variables with short names like c
+src/lifeGame/Main.java:21:	Field comments are required
+src/lifeGame/Main.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/lifeGame/Main.java:21:	Private field 'c' could be made final; it is only initialized in the declaration or constructor.
+src/lifeGame/Main.java:22:	Field comments are required
+src/lifeGame/Main.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/lifeGame/Main.java:22:	Private field 'row' could be made final; it is only initialized in the declaration or constructor.
+src/lifeGame/Main.java:23:	Field comments are required
+src/lifeGame/Main.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/lifeGame/Main.java:23:	Private field 'col' could be made final; it is only initialized in the declaration or constructor.
+src/lifeGame/Main.java:24:	Field comments are required
+src/lifeGame/Main.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/lifeGame/Main.java:25:	Avoid unused private fields such as 'cells1'.
+src/lifeGame/Main.java:25:	Field comments are required
+src/lifeGame/Main.java:26:	Avoid using redundant field initializer for 'generation'
+src/lifeGame/Main.java:26:	Field comments are required
+src/lifeGame/Main.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/lifeGame/Main.java:27:	Parameter 'titile' is not assigned and could be declared final
+src/lifeGame/Main.java:27:	Public method and constructor comments are required
+src/lifeGame/Main.java:34:	Overridable method 'initGUI' called during object construction
+src/lifeGame/Main.java:40:	The method 'initGUI()' has a NCSS line count of 49.
+src/lifeGame/Main.java:48:	Local variable 'label' could be declared final
+src/lifeGame/Main.java:49:	Local variable 'textField' could be declared final
+src/lifeGame/Main.java:51:	Local variable 'label1' could be declared final
+src/lifeGame/Main.java:52:	Local variable 'textField1' could be declared final
+src/lifeGame/Main.java:54:	Avoid variables with short names like b
+src/lifeGame/Main.java:54:	Local variable 'b' could be declared final
+src/lifeGame/Main.java:56:	Local variable 'label2' could be declared final
+src/lifeGame/Main.java:84:	Avoid using for statements without curly braces
+src/lifeGame/Main.java:84:	This statement should have braces
+src/lifeGame/Main.java:86:	Avoid instantiating new objects inside loops
+src/lifeGame/Main.java:87:	Avoid instantiating new objects inside loops
+src/lifeGame/Main.java:88:	Potential violation of Law of Demeter (static property access)
+src/lifeGame/Main.java:90:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:90:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:90:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:91:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:91:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:96:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:96:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:100:	Local variable 'timer' could be declared final
+src/lifeGame/Main.java:104:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/lifeGame/Main.java:104:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/lifeGame/Main.java:105:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/lifeGame/Main.java:106:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/lifeGame/Main.java:107:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/lifeGame/Main.java:108:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/lifeGame/Main.java:109:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/lifeGame/Main.java:109:	Potential violation of Law of Demeter (static property access)
+src/lifeGame/Main.java:110:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/lifeGame/Main.java:110:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:110:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:110:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:113:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/lifeGame/Main.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/lifeGame/Main.java:142:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/lifeGame/Main.java:142:	Document empty method body
+src/lifeGame/Main.java:142:	Parameter 'btns' is not assigned and could be declared final
+src/lifeGame/Main.java:142:	Public method and constructor comments are required
+src/lifeGame/Main.java:145:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/lifeGame/Main.java:145:	Document empty method body
+src/lifeGame/Main.java:145:	Parameter 'btns' is not assigned and could be declared final
+src/lifeGame/Main.java:145:	Public method and constructor comments are required
+src/lifeGame/Main.java:153:	Parameter 'args' is not assigned and could be declared final
+src/lifeGame/Main.java:153:	Public method and constructor comments are required
+src/service/GameService.java:5:	Avoid unused imports such as 'javax.swing.JFrame'
+src/service/GameService.java:8:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/service/GameService.java:8:	Header comments are required
+src/service/GameService.java:12:	Field comments are required
+src/service/GameService.java:14:	Parameter 'col' is not assigned and could be declared final
+src/service/GameService.java:14:	Parameter 'row' is not assigned and could be declared final
+src/service/GameService.java:14:	Public method and constructor comments are required
+src/service/GameService.java:15:	Local variable 'cells' could be declared final
+src/service/GameService.java:18:	Avoid instantiating new objects inside loops
+src/service/GameService.java:18:	Avoid variables with short names like r
+src/service/GameService.java:18:	Local variable 'r' could be declared final
+src/service/GameService.java:19:	Avoid variables with short names like a
+src/service/GameService.java:19:	Local variable 'a' could be declared final
+src/service/GameService.java:20:	Avoid using Literals in Conditional Statements
+src/service/GameService.java:21:	Potential violation of Law of Demeter (static property access)
+src/service/GameService.java:24:	Potential violation of Law of Demeter (static property access)
+src/service/GameService.java:32:	Parameter 'cells' is not assigned and could be declared final
+src/service/GameService.java:32:	Public method and constructor comments are required
+src/service/GameService.java:32:	The method 'generate(CellArray)' has a NCSS line count of 13.
+src/service/GameService.java:33:	Local variable 'nextCells' could be declared final
+src/service/GameService.java:34:	Avoid using for statements without curly braces
+src/service/GameService.java:34:	This statement should have braces
+src/service/GameService.java:37:	Local variable 'count' could be declared final
+src/service/GameService.java:38:	Avoid using Literals in Conditional Statements
+src/service/GameService.java:39:	Potential violation of Law of Demeter (static property access)
+src/service/GameService.java:41:	Potential violation of Law of Demeter (static property access)
+src/service/GameService.java:42:	Potential violation of Law of Demeter (static property access)
+src/service/GameService.java:45:	Potential violation of Law of Demeter (static property access)
+src/service/GameService.java:55:	Avoid variables with short names like x
+src/service/GameService.java:55:	Avoid variables with short names like y
+src/service/GameService.java:55:	Parameter 'cells' is not assigned and could be declared final
+src/service/GameService.java:55:	Parameter 'x' is not assigned and could be declared final
+src/service/GameService.java:55:	Parameter 'y' is not assigned and could be declared final
+src/service/GameService.java:55:	Public method and constructor comments are required
+src/service/GameService.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/service/GameService.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/service/GameService.java:59:	Potential violation of Law of Demeter (static property access)
+src/service/GameService.java:64:	Potential violation of Law of Demeter (static property access)
